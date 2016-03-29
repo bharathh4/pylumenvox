@@ -1,0 +1,11 @@
+curl GET http://127.0.0.1:5000/lexicon/africa
+
+curl POST -F "file"=@test2.wav http://127.0.0.1:5000/recognize
+
+curl POST -F "file"=@command.grxml http://127.0.0.1:5000/upload_grammar
+
+curl POST -F "file"=@names.txt http://127.0.0.1:5000/upload_names
+
+curl GET http://127.0.0.1:5000/start
+curl GET http://127.0.0.1:5000/delete_grammars
+curl GET http://127.0.0.1:5000/start
