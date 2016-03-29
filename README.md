@@ -1,2 +1,2 @@
 # pylumenvox
-Test
+Create a virtualenv and pip install flask.
